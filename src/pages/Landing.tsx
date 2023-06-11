@@ -1,8 +1,6 @@
 import React from 'react';
-import Cracked from '@/components/Animation/Cracked';
+import Main from '@/components/Main/Main';
 
-import './Landing.css';
-
-const Landing = () => <Cracked>challenge_estilos</Cracked>;
+const Landing = () => <Main />;
 
 export default Landing;
