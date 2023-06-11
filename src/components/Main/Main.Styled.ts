@@ -6,6 +6,12 @@ const Container = styled.div`
   width: 1440px;
   user-select: none;
   cursor: default;
+  @media (max-width: 1440px) {
+    width: 95%;
+  }
+  @media (max-width: 400px) {
+    width: 375px;
+  }
 `;
 
 export { Container };
