@@ -6,6 +6,7 @@ const Container = styled.div`
   width: 1440px;
   user-select: none;
   cursor: default;
+  color: hsl(0, 0%, 100%);
   @media (max-width: 1440px) {
     width: 95%;
   }

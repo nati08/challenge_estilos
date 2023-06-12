@@ -1,9 +1,5 @@
 import React, { FC } from 'react';
 
-const Information
-: FC = () => <div>Information
-  
-</div>;
+const Information: FC = () => <div>Information</div>;
 
-export default Information
-;
+export default Information;

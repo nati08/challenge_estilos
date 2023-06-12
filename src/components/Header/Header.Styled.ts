@@ -10,9 +10,9 @@ const HeaderContainer = styled.div`
 
 const Logo = styled.div`
   flex: 1;
-  text-align: center;
+  text-align: left;
   img {
-    width: 75%;
+    width: 70%;
   }
 `;
 
@@ -41,7 +41,7 @@ const Menu = styled.div`
   }
 
   a:hover {
-    font-weight: 600;
+    font-weight: 700;
   }
 `;
 
