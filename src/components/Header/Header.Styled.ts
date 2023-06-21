@@ -4,8 +4,9 @@ const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3rem 2rem;
+  padding: 3rem 2rem;
   font-family: 'Raleway';
+  background: hsl(218, 28%, 18%);
 `;
 
 const Logo = styled.div`

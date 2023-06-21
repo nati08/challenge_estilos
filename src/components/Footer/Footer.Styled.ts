@@ -28,6 +28,9 @@ const Information = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: top;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   .column {
     padding: 0 2rem;
     display: flex;
@@ -54,6 +57,13 @@ const Information = styled.div`
         font-weight: 700;
       }
     }
+    @media (max-width: 768px) {
+      padding: 2rem 0;
+      &:first-child {
+        flex: 1;
+        padding: 0 0;
+      }
+    }
   }
 `;
 
@@ -73,7 +83,7 @@ const InfoWithIcon = styled.div`
 const SocialMedia = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   i {
     width: 20px;
     height: 20px;
@@ -85,6 +95,7 @@ const SocialMedia = styled.div`
     font-size: 18px;
     line-height: 20px;
     text-align: center;
+    display: inline-block;
   }
 `;
 
