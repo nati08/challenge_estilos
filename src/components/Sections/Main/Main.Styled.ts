@@ -21,16 +21,22 @@ const Intro = styled.div`
   padding: 2rem;
   gap: 2rem;
   .icon {
+    width: 60%;
   }
   .title {
     text-align: center;
     font-weight: 700;
-    font-size: 48px;
-    width: 80%;
+    font-size: 2.5rem;
+    width: 70%;
   }
   .description {
     text-align: center;
     width: 40%;
+  }
+  @media (max-width: 400px) {
+    .icon {
+      width: 100%;
+    }
   }
 `;
 
