@@ -1,6 +1,6 @@
 import React from 'react';
-import Main from '@/components/Main/Main';
+import LandingComponent from '@/components/Landing/Landing';
 
-const Landing = () => <Main />;
+const Landing = () => <LandingComponent />;
 
 export default Landing;

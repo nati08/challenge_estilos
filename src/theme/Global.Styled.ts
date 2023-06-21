@@ -4,9 +4,9 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
-    padding: 0;
-    background: hsl(218, 28%, 13%);
+    padding: 0;    
     font-family: Open-Sans, Helvetica, Sans-Serif;
+    line-height: 1.5;
   }
 `;
  
