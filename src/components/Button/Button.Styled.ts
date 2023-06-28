@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ButtonStyled = styled.button`
-  background-color: hsl(176, 68%, 64%);
+  background: linear-gradient(to right, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 100%);
   color: white;
   padding: 10px 20px;
   outline: 0;
@@ -13,7 +13,7 @@ const ButtonStyled = styled.button`
   border-radius: 16px;
   &:hover,
   &:active {
-    background-color: linear-gradient(hsl(198, 60%, 50%), hsl(198, 60%, 50%));
+    background: hsl(198, 60%, 50%);
   }
   &:disabled {
     cursor: default;
